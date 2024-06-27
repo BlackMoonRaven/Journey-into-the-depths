@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef2172ad714efd48b996b005a7f8fb5, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  characters:
+  - playerName: Floppy
+    attackType: 0
+    health: 100
+    armor: 20
+    damage: 20
+    stamina: 15
+    strength: 20
+    agility: 10
+    intellect: 0
+    range: 0
+    moveSpeed: 6
+    attackSpeed: 1
+    vampiric: 0
+    luck: 0
+    ordinalNumber: 0
+    sprite: {fileID: 6205344720123861538, guid: b297701d5029f8344a601fd26d04b596, type: 3}
+  - playerName: Jhony
+    attackType: 0
+    health: 90
+    armor: 10
+    damage: 30
+    stamina: 10
+    strength: 30
+    agility: 20
+    intellect: 0
+    range: 0
+    moveSpeed: 7
+    attackSpeed: 2
+    vampiric: 0
+    luck: 0
+    ordinalNumber: 0
+    sprite: {fileID: 337655296304744460, guid: 46deaac5b2304e6458141465fea5e936, type: 3}
+  - playerName: Lisi
+    attackType: 1
+    health: 50
+    armor: 10
+    damage: 30
+    stamina: 5
+    strength: 10
+    agility: 20
+    intellect: 10
+    range: 5
+    moveSpeed: 6
+    attackSpeed: 2
+    vampiric: 0
+    luck: 0
+    ordinalNumber: 2
+    sprite: {fileID: 6846832321284952610, guid: 95793a52e376ee243b28405ffce81c0a, type: 3}
